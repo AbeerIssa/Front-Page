@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50% ,rgba(0,0,0,0.5)50% ), url(computer.jpg);
+    background-position: absolute;
+    background-size: cover;
+    height: 109vh;
+}
+.nav-bar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #03cafc;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-top: 15px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;   
+}
+ul li a {
+    text-decoration: none;
+    color: #eee;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #f704ba;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #f704ba;
+    margin-top: 13px;
+    color: #eee;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #f704ba;
+    border: 2px solid #f704ba;
+    border-radius: 2px;
+    margin-top: 13px;
+    color: #eee;
+    font-size: 15px;
+}
+.btn:focus{
+    outline: none;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #eee;
+    position: relative;
+}
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+.content .ju{
+    width: 100px;
+    height: 40px;
+    background: #03cafc;
+    border: 2px solid #03cafc;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 18x;
+    border-radius: 24px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+.content .ju a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+.ju:hover{
+    background-color: #03cafc;
+}
+.content span{
+    color: #f704ba;
+    font-size: 60px;
+}
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 37%;
+    right: -14%;
+    transform: translate(-50%, -50%);
+    background: #3d3c3cd5;
+    text-align: center;
+    border-radius: 30px;
+}
+.box h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.box input[type="text"] , input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f704ba;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transform: 0.25s;
+}
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #03cafc;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transform: 0.25s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover {
+    background: #03cafc;
+}
